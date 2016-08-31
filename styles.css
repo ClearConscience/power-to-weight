@@ -1,0 +1,29 @@
+html {
+  background-color: tomato;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+a button {
+  background-color: #444444;
+  color: white;
+  border: 1px solid black;
+  padding: 15px 32px;
+  font-size: .75rem;
+  border-radius: 2px;
+  margin: .25rem 0;
+}
+
+.function-button {
+  background-color: #999999;
+  color: black;
+}
+
+.function-button:hover {
+  background-color: #111111;
+  color: white;
+}
