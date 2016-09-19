@@ -2,20 +2,26 @@ html {
   background-color: tomato;
 }
 
+body {
+  /*width: 100%;*/
+}
+
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: justify;
 }
 
-a button {
+button {
   background-color: #444444;
   color: white;
   border: 1px solid black;
-  padding: 15px 32px;
-  font-size: .75rem;
-  border-radius: 2px;
+  /*padding: 1.5rem 5rem;*/
+  font-size: .85rem;
+  border-radius: .15rem;
   margin: .25rem 0;
+  width: 10rem;
+  height: 2.5rem;
 }
 
 .function-button {
