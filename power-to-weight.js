@@ -3,9 +3,25 @@ var lineup = [{
   carYear: "",
   carName: "",
   kiloWatts: "",
-  horsePower: "",
-  weight: "",
-  imgUrl: ""
+  horsePower: "180",
+  weight: "1860",
+  imgUrl: "images/abarth.png"
+}, {
+  ownerName: "",
+  carYear: "",
+  carName: "",
+  kiloWatts: "",
+  horsePower: "200",
+  weight: "2000",
+  imgUrl: "images/abarth.png"
+}, {
+  ownerName: "",
+  carYear: "",
+  carName: "",
+  kiloWatts: "",
+  horsePower: "350",
+  weight: "3380",
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -13,7 +29,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -21,7 +37,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -29,7 +45,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -37,7 +53,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -45,7 +61,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -53,7 +69,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -61,7 +77,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -69,7 +85,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -77,7 +93,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }, {
   ownerName: "",
   carYear: "",
@@ -85,23 +101,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "",
   weight: "",
-  imgUrl: ""
-}, {
-  ownerName: "",
-  carYear: "",
-  carName: "",
-  kiloWatts: "",
-  horsePower: "",
-  weight: "",
-  imgUrl: ""
-}, {
-  ownerName: "",
-  carYear: "",
-  carName: "",
-  kiloWatts: "",
-  horsePower: "",
-  weight: "",
-  imgUrl: ""
+  imgUrl: "images/abarth.png"
 }];
 
 var race = document.getElementById("test-results");
