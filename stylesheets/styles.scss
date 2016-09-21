@@ -1,9 +1,10 @@
 html {
-  background-color: tomato;
+  background-color: white;
 }
 
 body {
-  /*width: 100%;*/
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 .container {
@@ -16,7 +17,7 @@ button {
   background-color: #444444;
   color: white;
   border: 1px solid black;
-  /*padding: 1.5rem 5rem;*/
+  // padding: 1.5rem 5rem;
   font-size: .85rem;
   border-radius: .15rem;
   margin: .25rem 0;
@@ -32,4 +33,8 @@ button {
 .function-button:hover {
   background-color: #111111;
   color: white;
+}
+
+.car {
+  width: 10%;
 }

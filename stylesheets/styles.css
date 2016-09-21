@@ -1,0 +1,34 @@
+html {
+  background-color: white; }
+
+body {
+  max-width: 100vw;
+  max-height: 100vh; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: justify; }
+
+button {
+  background-color: #444444;
+  color: white;
+  border: 1px solid black;
+  font-size: .85rem;
+  border-radius: .15rem;
+  margin: .25rem 0;
+  width: 10rem;
+  height: 2.5rem; }
+
+.function-button {
+  background-color: #999999;
+  color: black; }
+
+.function-button:hover {
+  background-color: #111111;
+  color: white; }
+
+.car {
+  width: 10%; }
+
+/*# sourceMappingURL=styles.css.map */
