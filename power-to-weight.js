@@ -13,7 +13,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "164",
   weight: "2670",
-  imgUrl: "images/toyota.png"
+  imgUrl: "images/2005-toyota-corolla-xrs.jpg"
 }, {
   ownerName: "Alphonso",
   carYear: "2012",
@@ -71,37 +71,37 @@ var lineup = [{
   weight: "3042",
   imgUrl: "images/toyota.png"
 }, {
-  ownerName: "",
-  carYear: "",
-  carName: "",
+  ownerName: "Trevor",
+  carYear: "2014",
+  carName: "Hyundai Veloster Turbo",
   kiloWatts: "",
-  horsePower: "",
-  weight: "",
-  imgUrl: "images/abarth.png"
+  horsePower: "201",
+  weight: "2888",
+  imgUrl: "images/hyundai.png"
 }, {
-  ownerName: "",
-  carYear: "",
-  carName: "",
+  ownerName: "Tyler",
+  carYear: "2014",
+  carName: "Honda Civic NGV",
   kiloWatts: "",
-  horsePower: "",
-  weight: "",
-  imgUrl: "images/abarth.png"
+  horsePower: "110",
+  weight: "2933",
+  imgUrl: "images/honda.png"
 }, {
-  ownerName: "",
-  carYear: "",
-  carName: "",
+  ownerName: "Vicky",
+  carYear: "2003",
+  carName: "Mazda Protoge5",
   kiloWatts: "",
-  horsePower: "",
-  weight: "",
-  imgUrl: "images/abarth.png"
+  horsePower: "130",
+  weight: "2716",
+  imgUrl: "images/mazda.png"
 }, {
-  ownerName: "",
-  carYear: "",
-  carName: "",
+  ownerName: "Viktor Vaughn",
+  carYear: "2009",
+  carName: "Kia Rio",
   kiloWatts: "",
-  horsePower: "155",
-  weight: "2865",
-  imgUrl: "images/abarth.png"
+  horsePower: "110",
+  weight: "2365",
+  imgUrl: "images/kia.png"
 }];
 
 var race = document.getElementById("test-results");
@@ -118,7 +118,7 @@ function powerLevel(carListing) {
   figureVar.classList = "car";
   figureVar.id = "car-" + i;
   figureVar.dataset.powerToWeight = powerToWeight;
-  figureVar.style.transition = "15s ease-in";
+  figureVar.style.transition = "10s ease-in";
 
   var imgVar = document.createElement("img");
   imgVar.src = carListing.imgUrl;
