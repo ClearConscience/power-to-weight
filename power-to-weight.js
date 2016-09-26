@@ -5,7 +5,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "200",
   weight: "2480",
-  imgUrl: "images/acura.png"
+  imgUrl: "images/2001-acura-integra-type-r.jpg"
 }, {
   ownerName: "Aaron",
   carYear: "2006",
@@ -13,7 +13,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "164",
   weight: "2670",
-  imgUrl: "images/rsz_2005-toyota-corolla-xrs.jpg"
+  imgUrl: "images/2005-toyota-corolla-xrs.jpg"
 }, {
   ownerName: "Alphonso",
   carYear: "2012",
@@ -21,7 +21,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "117",
   weight: "2496",
-  imgUrl: "images/rsz_2012-honda-fit.jpg"
+  imgUrl: "images/2012-honda-fit.jpg"
 }, {
   ownerName: "Jason Hernandez",
   carYear: "2014",
@@ -29,7 +29,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "170",
   weight: "3312",
-  imgUrl: "images/rsz_2014-volkswagen-jetta-hybrid.jpg"
+  imgUrl: "images/2014-volkswagen-jetta-hybrid.jpg"
 }, {
   ownerName: "Luis",
   carYear: "2011",
@@ -37,7 +37,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "260",
   weight: "3877",
-  imgUrl: "images/rsz_2011-nissan-murano.jpg"
+  imgUrl: "images/2011-nissan-murano.jpg"
 }, {
   ownerName: "Marie",
   carYear: "2008",
@@ -45,7 +45,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "140",
   weight: "2586",
-  imgUrl: "images/rsz_2008-honda-civic-lx.jpg"
+  imgUrl: "images/2008-honda-civic-lx.jpg"
 }, {
   ownerName: "Schwindle",
   carYear: "2010",
@@ -53,7 +53,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "161",
   weight: "2905",
-  imgUrl: "images/rsz_2010-scion-tc.jpg"
+  imgUrl: "images/2010-scion-tc.jpg"
 }, {
   ownerName: "Sophia",
   carYear: "2005",
@@ -61,7 +61,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "160",
   weight: "3108",
-  imgUrl: "images/rsz-2005-toyota-camry.jpg"
+  imgUrl: "images/2005-toyota-camry.jpg"
 }, {
   ownerName: "Tona",
   carYear: "2013",
@@ -69,7 +69,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "134",
   weight: "3042",
-  imgUrl: "images/rsz_2014-toyota-prius-four.jpg"
+  imgUrl: "images/2014-toyota-prius-four.jpg"
 }, {
   ownerName: "Trevor",
   carYear: "2014",
@@ -77,7 +77,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "201",
   weight: "2888",
-  imgUrl: "images/rsz_2014-hyundai-veloster.jpg"
+  imgUrl: "images/2014-hyundai-veloster.jpg"
 }, {
   ownerName: "Tyler",
   carYear: "2014",
@@ -101,7 +101,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "110",
   weight: "2365",
-  imgUrl: "images/rsz_2009-kia-rio-lx.jpg"
+  imgUrl: "images/2009-kia-rio-lx.jpg"
 }];
 
 var race = document.getElementById("test-results");
