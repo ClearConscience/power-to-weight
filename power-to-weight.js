@@ -85,7 +85,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "110",
   weight: "2933",
-  imgUrl: "images/honda.png"
+  imgUrl: "images/2014-honda-civic-ngv.jpg"
 }, {
   ownerName: "Vicky",
   carYear: "2003",
@@ -93,7 +93,7 @@ var lineup = [{
   kiloWatts: "",
   horsePower: "130",
   weight: "2716",
-  imgUrl: "images/mazda.png"
+  imgUrl: "images/2003-mazda3-protoge5.jpg"
 }, {
   ownerName: "Viktor Vaughn",
   carYear: "2009",
@@ -118,7 +118,6 @@ function powerLevel(carListing) {
   figureVar.classList = "car";
   figureVar.id = "car-" + i;
   figureVar.dataset.powerToWeight = powerToWeight;
-  figureVar.style.transition = "10s ease-in";
 
   var imgVar = document.createElement("img");
   imgVar.src = carListing.imgUrl;
@@ -126,11 +125,12 @@ function powerLevel(carListing) {
   figureVar.appendChild(imgVar);
 
   var figcapVar = document.createElement("figcaption");
-  figcapVar.innerHTML = (carListing.horsePower + "hp / " + carListing.weight + "lbs = " + powerToWeight.toFixed(3) + " power-to-weight ratio.");
+  figcapVar.innerHTML = (carListing.carYear + " " + carListing.carName + "\n" + carListing.horsePower + "hp / " + carListing.weight + "lbs = " + powerToWeight.toFixed(3) + " power-to-weight ratio.");
   figureVar.appendChild(figcapVar);
   race.appendChild(figureVar);
  }
 
+ lineup.sort(function() { return 0.5 - Math.random(); });
 
 for (var i = 0; i < lineup.length; i++) {
   powerLevel(lineup[i]);
@@ -141,6 +141,7 @@ for (var i = 0; i < lineup.length; i++) {
   var vehicleVar = document.getElementById("car-" + i);
   var ptw = vehicleVar.dataset.powerToWeight;
   var movement = ((ptw - min) / (max - min) * 100) - 10;
+  vehicleVar.classList += " racing";
   vehicleVar.style.marginLeft = movement + "%";
  }
 }
@@ -148,6 +149,7 @@ for (var i = 0; i < lineup.length; i++) {
 function reset() {
   for (var i = 0; i < lineup.length; i++) {
     var vehicleVar = document.getElementById("car-" + i);
+    vehicleVar.classList = "car";
     vehicleVar.style.marginLeft = 0;
   }
 }
