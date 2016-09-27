@@ -5,6 +5,7 @@ html {
 body {
   max-width: 100vw;
   max-height: 100vh;
+  font-family: 'Roboto Slab', serif;
 }
 
 .container {
@@ -37,4 +38,13 @@ button {
 
 .car {
   width: 10%;
+  margin-left: 0;
+  transition: 2.5s;
+  img {
+    max-width: 100%;
+  }
+}
+
+.racing {
+  transition: 15s ease-in;
 }
