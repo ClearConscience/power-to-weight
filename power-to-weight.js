@@ -153,3 +153,11 @@ function reset() {
     vehicleVar.style.marginLeft = 0;
   }
 }
+
+var x = document.getElementsByTagName('figcaption').toggleClass('click');
+
+function toggleClass() {
+  for (var i = 0; i < lineup.length; i++) {
+    
+  }
+}

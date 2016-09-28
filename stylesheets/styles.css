@@ -32,9 +32,20 @@ button {
 .car {
   width: 10%;
   margin-left: 0;
-  transition: 2.5s; }
+  transition: 2.5s;
+  position: relative; }
   .car img {
     max-width: 100%; }
+  .car figcaption {
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 5;
+    background-color: white;
+    width: 75%; }
+  .car:hover figcaption {
+    display: block;
+    border: 1px solid black; }
 
 .racing {
   transition: 15s ease-in; }
