@@ -102,6 +102,30 @@ var lineup = [{
   horsePower: "110",
   weight: "2365",
   imgUrl: "images/2009-kia-rio-lx.jpg"
+}, {
+  ownerName: "Thomas Stevens",
+  carYear: "1886",
+  carName: "Penny Farthing",
+  kiloWatts: "",
+  horsePower: "1",
+  weight: "36",
+  imgUrl: "images/1886-penny-farthing.jpg"
+}, {
+  ownerName: "Nissan Motorsports",
+  carYear: "2009",
+  carName: "Nissan GT-R",
+  kiloWatts: "",
+  horsePower: "480",
+  weight: "3836",
+  imgUrl: "images/2009-nissan-gt-r.jpg"
+}, {
+  ownerName: "Bernie Saito",
+  carYear: "2005",
+  carName: "Porsche 911 Turbo",
+  kiloWatts: "",
+  horsePower: "444",
+  weight: "3660",
+  imgUrl: "images/2005-porsche-911-turbo.jpg"
 }];
 
 var race = document.getElementById("test-results");
@@ -132,7 +156,11 @@ function powerLevel(carListing) {
 
  lineup.sort(function() { return 0.5 - Math.random(); });
 
-for (var i = 0; i < lineup.length; i++) {
+ var spaceForCars = window.innerHeight - 80;
+ var carHeight = document.body.offsetWidth * 0.064;
+ var numOfCars = Math.floor(spaceForCars / carHeight);
+
+for (var i = 0; i < numOfCars; i++) {
   powerLevel(lineup[i]);
 }
 
@@ -151,13 +179,5 @@ function reset() {
     var vehicleVar = document.getElementById("car-" + i);
     vehicleVar.classList = "car";
     vehicleVar.style.marginLeft = 0;
-  }
-}
-
-var x = document.getElementsByTagName('figcaption').toggleClass('click');
-
-function toggleClass() {
-  for (var i = 0; i < lineup.length; i++) {
-    
   }
 }
