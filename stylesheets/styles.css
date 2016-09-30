@@ -6,6 +6,9 @@ body {
   max-height: 100vh;
   font-family: 'Roboto Slab', serif; }
 
+header p {
+  margin: 0 auto; }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -39,10 +42,10 @@ button {
   .car figcaption {
     display: none;
     position: absolute;
-    top: 100%;
+    top: -3em;
     z-index: 5;
     background-color: white;
-    width: 75%; }
+    width: 20em; }
   .car:hover figcaption {
     display: block;
     border: 1px solid black; }
