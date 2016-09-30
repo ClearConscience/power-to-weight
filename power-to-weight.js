@@ -132,11 +132,13 @@ var race = document.getElementById("test-results");
 
 var min = 0.015;
 var max = 0;
+var maxCar = {};
 
 function powerLevel(carListing) {
   var powerToWeight = (carListing.horsePower / carListing.weight);
   if (powerToWeight > max) {
     max = powerToWeight;
+    maxCar = carListing;
   }
   var figureVar = document.createElement("figure");
   figureVar.classList = "car";
@@ -165,17 +167,18 @@ for (var i = 0; i < numOfCars; i++) {
 }
 
 function run() {
-for (var i = 0; i < lineup.length; i++) {
+for (var i = 0; i < numOfCars; i++) {
   var vehicleVar = document.getElementById("car-" + i);
   var ptw = vehicleVar.dataset.powerToWeight;
   var movement = ((ptw - min) / (max - min) * 100) - 10;
   vehicleVar.classList += " racing";
   vehicleVar.style.marginLeft = movement + "%";
  }
+ setTimeout(function(){ alert("Congratulations " + maxCar.carYear + " " + maxCar.carName + " YOU WIN!");  }, 15000);
 }
 
 function reset() {
-  for (var i = 0; i < lineup.length; i++) {
+  for (var i = 0; i < numOfCars; i++) {
     var vehicleVar = document.getElementById("car-" + i);
     vehicleVar.classList = "car";
     vehicleVar.style.marginLeft = 0;
